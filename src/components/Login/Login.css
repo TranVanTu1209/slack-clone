@@ -1,0 +1,17 @@
+/** @format */
+
+.login__container {
+	width: 500px;
+	margin: 4rem auto;
+	text-align: center;
+	line-height: 2.5;
+	box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 2rem;
+	border-radius: 5px;
+}
+.login__container img {
+	width: 80%;
+}
+.login__container button {
+  width: 200px;
+}

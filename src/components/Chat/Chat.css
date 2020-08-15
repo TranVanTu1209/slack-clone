@@ -1,0 +1,32 @@
+/** @format */
+
+.chat {
+	padding: 0.7rem 0;
+}
+.chat__header {
+	display: flex;
+	border-bottom: 1px solid #999;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 15px;
+	padding-top: 0;
+}
+.chat__header-left h4,
+.chat__header-right p {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.chat__header-right {
+	cursor: pointer;
+	transition: all 0.4s ease;
+	padding: 5px 10px;
+}
+.chat__header-right:hover {
+	border-radius: 4px;
+	background-color: #ebe1e1cc;
+}
+.chat__body {
+	height: 483px;
+	overflow-y: scroll;
+}

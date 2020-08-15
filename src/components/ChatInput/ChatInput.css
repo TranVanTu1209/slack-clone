@@ -1,0 +1,17 @@
+/** @format */
+
+.chatInput form {
+	display: flex;
+}
+.chatInput form input {
+  flex: 1;
+  padding-left: 5px;
+  margin-right: 2px;
+}
+.chatInput form input:focus {
+	outline: none !important;
+	border: 1px solid var(--sidebar-color);
+}
+.chatInput {
+	padding: 10px;
+}

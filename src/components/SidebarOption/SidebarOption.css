@@ -1,0 +1,18 @@
+/** @format */
+
+.sidebarOption {
+	display: flex;
+	align-items: center;
+	margin: 6.5px 0;
+	font-size: 15px;
+	cursor: pointer;
+	transition: all 0.4s ease;
+	padding: 6px;
+	padding-left: 4px;
+}
+.sidebarOption:hover {
+	background-color: #350d36da;
+}
+.sidebarOption svg {
+	margin-right: 5px;
+}

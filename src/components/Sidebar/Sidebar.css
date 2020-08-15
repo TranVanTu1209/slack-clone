@@ -1,0 +1,30 @@
+/** @format */
+
+.sidebar {
+	background-color: var(--sidebar-color);
+	color: #fff;
+	border-top: 1px solid #999;
+	padding: 10px;
+}
+.sidebar__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #999;
+}
+.sidebar__edit svg {
+	background-color: #fff;
+	color: #555;
+	width: 35px;
+	height: 35px;
+	padding: 5px;
+	font-size: 17px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.sidebar__body, .sidebar__footer {
+	border-bottom: 1px solid #999;
+}
+a {
+	color: #fff;
+}
